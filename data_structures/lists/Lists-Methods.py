@@ -20,7 +20,7 @@ list1.pop(3)
 
 # finds the index of the first occurance of 5
 
-list1.index(3)
+list1.index(1)
 
 # counts the occurances of a specific value
 list1.count(2)
@@ -39,6 +39,28 @@ size = len(list1)
 min_value = min(list1)
 
 # maximum value
+max_value = max(list1)
+
+# sum of all the values in the list
+
+values_sum = sum(list1)
+
+# accessing specific section za the list
+
+sliced_list = list1[1:5]
+
+# concatenating a list
+
+combined_list = list1 + [1,2,3,4,5,6]
+
+# checking whether an element is in a list
+
+names = ['caleb', 'mayaka', 'ombogo']
+
+name_status = 'caleb' in names
+
+print(name_status)
+
 
 
 
